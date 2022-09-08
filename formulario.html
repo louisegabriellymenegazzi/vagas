@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Informática e seus Empregos</title>
+    <link rel="stylesheet" href="css/estilo.css" >
+</head>
+
+<body>
+
+    <header>
+        <img src="img/imagemdapagina11.jpeg">
+
+        <h1>Empregos na área da Informática</h1>
+
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="profissao1.html">Técnico de Informática</a></li>
+            <li><a href="profissao2.html">Gestor da tecnologia da informação</a></li>
+            <li><a href="profissao3.html">Profiossional de help desk</a></li>
+            <li><a href="profissao4.html">Web Designer</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Vagas de emprego</h2>
+        
+        <section id="vaga">
+            <img  src="img/vagas-de-emprego.jpeg">
+        </section>
+
+        <p><b>Cadastre suas vagas de empregos aqui:</b></p>
+
+
+
+        <table>
+            <tr>
+                <th>Vaga </th>
+                <th>Requisitos </th>
+                <th>Salário </th>
+            </tr>
+            <tr>
+                <td> Técnico de Informática </td>
+                <td>Ter sólido conhecimento de sistemas e sua segurança em computadores </td>
+                <td>R$ 1.900,00 </td>
+            </tr>
+            <tr>
+                <td>Gestor da tecnologia da informação </td>
+                <td>Saber liderar e administrar sua equipe </td>
+                <td>R$ 3.980,00 </td>
+            </tr>
+            <tr>
+                <td> Profiossional de help desk </td>
+                <td>Saber solucionar problemas </td>
+                <td>R$ 3.020,00 </td>
+            </tr>
+            <tr>
+                <td> Web Designer </td>
+                <td>Experiência e habilidades comprovada na área </td>
+                <td>R$ 2.400,00 </td>
+            </tr>
+        </table>
+
+        <form action=" /login.php" method="post">
+            <fieldset>
+            <p>
+                <label for="Nome da empresa"> Nome da empresa:</label>
+                <input type="text" name="name" id="nome da empresa" required>
+            </p>
+
+            <p>
+                <label for="E-mail"> E-mail:</label>
+                <input type="text" name="E-mail" id="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </p>
+
+            <p>
+                <label for="CNPJ"> CNPJ:</label>
+                <input type="text" name="CNPJ" id="CNPJ" required pattern="[0-9]+$"
+                    placeholder=" Digite apenas números">
+            </p>
+
+            <p>
+                <label for="Cep"> Cep:</label>
+                <input type="text" name="Cep" id="Cep" required pattern="[0-9]+$" placeholder=" Digite apenas números">
+            </p>
+
+            <p>
+                <label for="Cargo de vaga"> Cargo de vaga:</label>
+                <input type="text" name="Cargo de vaga" id="Cargo de vaga" required>
+            </p>
+
+            <p>
+            <P>
+
+                Se tivesse que se deslocar até a empresa
+
+
+            <P>
+                <input id="" name="deslocar" type="checkbox" value="PODE">
+                <label for=" ">Poderia</label>
+            </P>
+
+            <P>
+                <input id="" name="deslocar" type="checkbox" value="PODE">
+                <label for=" ">Não Poderia</label>
+            </P>
+
+            </p>
+
+            <input type="submit">
+        </fieldset>
+        </form>
+
+
+    </main>
+
+    <footer>
+        <p>Esperamos ter ajudado!</p>
+    </footer>
+
+</body>
+
+</html>
